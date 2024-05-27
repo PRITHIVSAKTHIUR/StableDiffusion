@@ -30,15 +30,15 @@ license: creativeml-openrail-m
 
 ℹ️Generated Result in Huggingface Spaces:
 
-## 🔮The Sample Prompt1 Give to the AI Model for Generation :
+## 🔮The Sample Prompt 1 Give to the AI Model for Generation :
 
 ![alt text](assets/sdxl.png)
 
-## 🔮The Sample Prompt2 Give to the AI Model for Generation :
+## 🔮The Sample Prompt 2 Give to the AI Model for Generation :
 
 ![alt text](assets/sdxl2.png)
 
-## HD Generated Image Based on the prompt given:
+## Generated Image Based on the prompt given:
 Prompt 1
 
     Fashion shoot, Jacquemus and moncler collaboration: light pink translucent fur sneakers, hyper-realistic, detailed 8k, realistic.
@@ -59,7 +59,7 @@ prompt 4
 
     front view, capture a urban style, Hoodie, technical materials, fabric small point label on text 'Graytheory', the design is minimal, with a raised collar, fabric is a dark grey, low angle to capture the Hoodie's form and detailing, f/5.6 to focus on the hoodie's craftsmanship, solid grey background, studio light setting
 
-## Samples 
+## Samples generated from [ prompt 1,2,3,4 ]
 
 | ![Image 1](assets/11.webp) | ![Image 2](assets/12.webp) |
 |----------------------------|----------------------------|
