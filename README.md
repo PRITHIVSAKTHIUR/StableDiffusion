@@ -77,7 +77,7 @@ prompt 4
     import requests
     
     API_URL = "https://api-inference.huggingface.co/models/prithivMLmods/NGC5128-StableDiffusion-XL-v4"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}
     
     def query(payload):
     	response = requests.post(API_URL, headers=headers, json=payload)
