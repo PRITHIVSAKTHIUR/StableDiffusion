@@ -1,3 +1,5 @@
 import gradio as gr
 
-gr.load("SG161222/RealVisXL_V4.0_Lightning").launch()
+gr.load("------your model goes here---------").launch() #via huggingface spaces
+
+#(or) use it locally viia API. Visit ReadME.md
