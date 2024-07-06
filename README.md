@@ -14,19 +14,51 @@ license: creativeml-openrail-m
 
 🚀Check out the configuration reference at : https://huggingface.co/docs/hub/spaces-config-reference
 
-🚀Huggingface space : https://huggingface.co/spaces/prithivMLmods/NGC5128-StableDiffusion-XL
+🚀Huggingface space :  https://huggingface.co/spaces/prithivMLmods/Stable-Diffusion-Base
 
 🚀The GitHub Model Workspace : 
     
     # Make sure you have git-lfs installed (https://git-lfs.com)
     git lfs install
     
-    git clone https://huggingface.co/spaces/prithivMLmods/NGC5128-StableDiffusion-XL
+    git clone https://huggingface.co/spaces/prithivMLmods/Stable-Diffusion-Base
     
     # If you want to clone without large files - just their pointers
     
-    GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/spaces/prithivMLmods/NGC5128-StableDiffusion-XL
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/spaces/prithivMLmods/Stable-Diffusion-Base
 
+## Use With API🚀 : 
+
+    Use the gradio_client Python library or the @gradio/client Javascript package to query the app via API.
+    
+    1. Install the client if you don't already have it installed.
+    
+    $ pip install gradio_client
+    
+    2. Find the API endpoint below corresponding to your desired function in the app. Copy the code snippet, replacing the placeholder values with your own input data. If this is a private Space, you may need to pass your Hugging Face token as well (read more). Or
+    
+    to automatically generate your API requests.
+    api_name: /predict
+    
+    from gradio_client import Client
+    
+    client = Client("prithivMLmods/Stable-Diffusion-Base")
+    result = client.predict(
+    		param_0="Hello!!",
+    		api_name="/predict"
+    )
+    print(result)
+    
+    Accepts 1 parameter:
+    
+    param_0 str Required
+    
+    The input value that is provided in the "Input" Textbox component.
+    Returns 1 element
+    
+    filepath
+    
+    The output value that appears in the "Output" Image component.
 
 ℹ️Generated Result in Huggingface Spaces:
 
